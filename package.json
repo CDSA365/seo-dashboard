@@ -2,7 +2,7 @@
   "name": "cdsa-365-seo",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Carpe Diem Skills Academy - SEO Dashboard",
   "scripts": {
     "develop": "env-cmd -e development strapi develop",
     "start": "env-cmd -e production strapi start",
@@ -19,7 +19,7 @@
     "mysql": "^2.18.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Sam Nishanth Simson"
   },
   "strapi": {
     "uuid": "2373088f-7452-405f-8630-e866414496eb"
