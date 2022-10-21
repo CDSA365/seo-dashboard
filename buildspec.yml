@@ -18,8 +18,6 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - echo starting strapi server
-      - yarn start
 artifacts:
   files:
     - build/**/*
