@@ -22,3 +22,6 @@ artifacts:
   base-directory: build
   files:
     - "**/*"
+    - package.json
+    - package-lock.json
+    - node_modules/**/*
