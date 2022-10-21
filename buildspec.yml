@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - mkdir dist
-      - mv ./* dist/
+      - mv build/* dist
 artifacts:
   files:
     - build/**/*
