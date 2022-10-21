@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "description": "Carpe Diem Skills Academy - SEO Dashboard",
   "scripts": {
-    "develop": "env-cmd -e development strapi develop",
-    "start": "env-cmd -e production strapi start",
-    "build": "env-cmd -e production strapi build",
+    "develop": "NODE_ENV=development strapi develop",
+    "start": "NODE_ENV=production strapi start",
+    "build": "NODE_ENV=production strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -15,7 +15,8 @@
     "@strapi/plugin-users-permissions": "4.4.3",
     "@strapi/strapi": "4.4.3",
     "better-sqlite3": "7.4.6",
-    "env-cmd": "^10.1.0",
+    "dotenv": "^16.0.3",
+    "find-config": "^1.0.0",
     "mysql": "^2.18.1"
   },
   "author": {
