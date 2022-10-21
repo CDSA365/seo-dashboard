@@ -21,7 +21,7 @@ phases:
 artifacts:
   base-directory: build
   files:
-    - "**/*"
+    - build/**/*
     - package.json
     - package-lock.json
     - node_modules/**/*
